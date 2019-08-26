@@ -2,9 +2,15 @@
 
 The node core libs for in-browser usage.
 
-NOTE: This library is deprecated and won't accept Pull Requests that include Breaking Changes or new Features. Only bugfixes are accepted.
+NOTE: Thislibrary is a fork of [node-libs-browser](https://github.com/webpack/node-libs-browser) with updated dependencies, not tested.
 
-[![dependencies status](http://david-dm.org/webpack/node-libs-browser.png)](http://david-dm.org/webpack/node-libs-browser)
+[![dependencies status](http://david-dm.org/TalaikisInc/node-libs-browser.png)](http://david-dm.org/TalaikisInc/node-libs-browser)
+
+## Install
+
+```bash
+npm i @talaikis/node-libs-browser
+```
 
 Exports a hash [object] of absolute paths to each lib, keyed by lib names. Modules without browser replacements are `null`.
 

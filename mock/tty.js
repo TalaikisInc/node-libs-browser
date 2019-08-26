@@ -1,2 +1,2 @@
-exports.isatty = function () {};
-exports.setRawMode = function () {};
+exports.isatty = function () {}
+exports.setRawMode = function () {}
